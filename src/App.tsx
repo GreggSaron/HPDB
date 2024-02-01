@@ -1,14 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import './App.css';
+
+import Header from './components/header';
+import Wiki from './components/wiki';
 
 function App() {
 
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Header />,
+      children: [
+        {
+          index: true,
+          element: <div></div>,
+        },
+        {
+          path: '/wiki',
+          element: <Wiki />,
+        }
+      ]
+    }
+  ])
+
   return (
-    <p>HPDB</p>
+      <RouterProvider router={router} />
   )
 
-}
+};
 
-export default App
+export default App;

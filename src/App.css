@@ -1,7 +1,18 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-}
+  background-image: url('assets/PergamentScrap.png'),url(assets/PergamentBackground.jpg); 
+  background-size: 100%, cover;
+  background-repeat: no-repeat; 
+  background-attachment: scroll;
+  background-position: 50% -0.2%, center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 
+  width: 1000px;
+  height: 100%;
+  min-height: 1300px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+}

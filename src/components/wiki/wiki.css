@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'HPFont';
+    src: url('../../assets/fonts/HarryPotter.ttf') format('truetype');
+}
+
+
+.wiki-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+
+.wiki-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wiki-nav-characters, .wiki-nav-spells, .wiki-nav-Potions {
+    font-family: 'HPFont';
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+    margin-right: 4rem;
+    transition: transform 0.5s ease;
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+.wiki-nav-Potions {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-top: 10vh;
+}
+
+.wiki-nav-characters:hover, .wiki-nav-spells:hover, .wiki-nav-Potions:hover {
+    transform: scale(1.3) translateZ(0);
+
+}
