@@ -5,9 +5,9 @@ const Wiki = () => {
     return (
         <div className="wiki-container">
             <div className="wiki-nav">
-                <Link to="#" className="wiki-nav-characters">Characters</Link>
-                <Link to="#" className="wiki-nav-spells">Spells</Link>
-                <Link to="#" className="wiki-nav-Potions">Potions</Link>
+                <Link to="/wiki/characters" className="wiki-nav-characters">Characters</Link>
+                <Link to="/wiki/spells" className="wiki-nav-spells">Spells</Link>
+                <Link to="/wiki/potions" className="wiki-nav-Potions">Potions</Link>
             </div>
             <div className="wiki-content">
             </div>

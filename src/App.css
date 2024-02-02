@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'HPFont';
+  src: url('./assets/fonts/HarryPotter.ttf') format('truetype');
+}
+
 #root {
+  font-family: 'HPFont';
   text-align: center;
   background-image: url('assets/PergamentScrap.png'),url(assets/PergamentBackground.jpg); 
   background-size: 100%, cover;
