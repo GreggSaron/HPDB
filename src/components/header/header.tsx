@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
                 <nav className="header-nav">
                     <Link to={`/wiki`} className="tab">Wiki</Link>
-                    <Link to={`/wiki`} className="tab">Tab</Link>
+                    <Link to={`/sources`} className="tab">Sources</Link>
                     <Link to={`/wiki`} className="tab">Tab</Link>
                 </nav>
             </div>

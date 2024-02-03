@@ -7,6 +7,7 @@ import Header from './components/header';
 import Wiki from './components/wiki';
 import MainPage from './components/mainPage';
 import SearchForm from './components/searchForm';
+import SourcesPage from './components/sourcesPage';
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
           index: true,
           element: <MainPage />,
         },
+        {
+          path: '/sources',
+          element: <SourcesPage />,
+        },        
         {
           path: '/wiki',
           element: <Wiki />,
