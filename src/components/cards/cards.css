@@ -41,16 +41,16 @@
 }
 
 .modal-content {
-  width: 700px;
-  height: 70%;
-  min-height: 900px;
-  background-image: url(../../assets/PergamentBackground.jpg);
-  background-position: 0%;
-  background-size: cover;
-  padding: 20px;
-  border-radius: 10px;
-  position: relative;
-  overflow-y: auto;
+    width: 700px;
+    height: 70%;
+    min-height: 900px;
+    background-image: url(../../assets/PergamentBackground.jpg);
+    background-position: 0%;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow-y: auto; 
 }
 
 .close-modal {
